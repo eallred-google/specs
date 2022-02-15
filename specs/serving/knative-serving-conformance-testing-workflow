@@ -1,0 +1,33 @@
+# Knative Serving Conformance Workflow
+
+These are the steps to be followed to test and gain knative conformance.
+
+1. Run Manual Tests
+- Manual tests can be automated if an investment is made
+- For non Kubernetes implementation - See 
+2. Open Github PR in knative/specs repo 
+- Use PR template below
+- conformance/tests/results/ directory
+- conformance/test/results/$vendor directory with a metadata file and test results
+- ex; .../v1.0/2021-12-18-ibm-code-engine/...
+- Attach Logs from tests
+3. KTC reviews 
+- Template
+- logs
+4. KTC provide approval / exception / or non-approval
+5. Post to conformance matrix - consumable by the general public as a table of version, product, vendor and outcomes.
+- Should have a public “conformant implementations” showcase on https://knative.dev/offerings
+
+
+
+## Issue Template
+| ----------- | ----------- |
+| **Vendor** | Name of Company / Entity |
+| **Product Name** | Product Name |
+| **Version** | Version |
+| **Knative version** | Knative conformance ver |
+| **Website URL for Product** | Website of Product |
+| **Contact Name** | Conformance contact for questions | 
+ 
+
+
